@@ -1,29 +1,30 @@
+[ Languages: English|[Русский](./README.ru.md) ]
+
+TODO: Finish it...
+
 aVtonomKa
 =========
 
-Приложение командной строки, для управления данными аккаунта соцсети ВК.
+Command line utility to manage data at VK social network.
 
-Установка
+Installation
 ---------
 
-Просто установите:
+Simple install with:
 
     $ gem install aVtonomKa
 
-Использование
+Usage
 -------------
 
-TODO: Закончить это...
+### Authorize application
 
-### Авторизация
-
-Перед тем как начать, вы должны выполнить авторизацию 
+Before you continue with using this application, you must authorize it.
 
     $ avtonomka authorize
 
-Эта команда откроет в вашем браузере URL авторизации контакта, и перенаправит на пустую страницу.
+That command opens in your browser authorization URL. VK redirects you to a blank page.
+Copy an access_token from the address bar of your browser and give it to the application.
+(gif-animation)
 
-Скопируйте access_token из адресной строки браузера, и отдайте его приложению.
-(запилить gif-animation как это сделать)
-
-aVtonomKa сохранит этот токен, и пока он будет работать, вам не понадобится повторно проходить этот шаг.
+aVtonomKa will save that token, and while it alive you won't need to repeat that step.

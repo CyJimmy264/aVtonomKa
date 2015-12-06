@@ -4,4 +4,4 @@ $LOAD_PATH.unshift(lib) if File.directory?(lib)
 
 require 'aVtonomKa'
 
-puts "aVtonomKa #{AVtonomKa::VERSION}"
+AVtonomKa::Application.new.run

@@ -1,0 +1,3 @@
+aVtonomKa - Command line utility to manage data at VK social network.
+Usage:  avtonomka [--version] [--help]
+        <command> [<args>]

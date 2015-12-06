@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["cyjimmy264"]
   spec.email         = ["cyjimmy264@gmail.com"]
 
-  spec.summary       = %q{Command line utility to manage data from VK social network}
+  spec.summary       = %q{Command line utility to manage data at VK social network.}
 #  spec.description   = %q{TODO: Write a longer description or delete this line.}
-#  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/CyJimmy264/aVtonomKa"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

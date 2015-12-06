@@ -4,3 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'aruba', '~> 0.11.1'
+
+gem 'simplecov', :require => false, :group => :test
